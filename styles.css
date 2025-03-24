@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --primary-color: #d7e7e2; /* Verde bem claro, quase branco */
+  --secondary-color: #ca9e24;
+  --text-color: #333;
+  --light-text: #807a5d;
+  --border-color: #c9a14d;
+  --button-bg: #d4e6df;;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--text-color);
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  background: var(--button-bg);
+  padding: 30px 25px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border-radius: 50%; /* Torna a imagem redonda */
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 40px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  padding: 16px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  border: 1px solid #ccc;
+  border-bottom: 3px solid var(--border-color);
+}
+
+.link-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(201, 161, 77, 0.2);
+}
+
+.link-button .icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #777;
+}
