@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 :root {
-  --primary-color: #d7e7e2; /* Verde bem claro, quase branco */
+  --primary-color: #c7fcec; /* Verde bem claro, quase branco */
   --secondary-color: #ca9e24;
   --text-color: #333;
   --light-text: #807a5d;
   --border-color: #c9a14d;
-  --button-bg: #d4e6df;;
+  --button-bg:  #bed7cf;
 }
 
 * {
